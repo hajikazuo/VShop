@@ -51,7 +51,7 @@ namespace VShop.ProductApi.Controllers
                 new { id = produtoDto.Id }, produtoDto);
         }
 
-        [HttpPut]
+        [HttpPut()]
         public async Task<ActionResult<ProductDTO>> Put([FromBody] ProductDTO produtoDto)
         {
             if (produtoDto == null)

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VShop.ProductApi", "VShop.ProductApi\VShop.ProductApi.csproj", "{2E113B6B-2BE6-49E1-BDD1-9FB14BAFC7D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VShop.Web", "VShop.Web\VShop.Web.csproj", "{11E23D32-3ECC-41E7-ADDF-0EC187407027}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VShop.Web", "VShop.Web\VShop.Web.csproj", "{11E23D32-3ECC-41E7-ADDF-0EC187407027}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{5868D802-8694-4F5C-B520-B13051099ABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Frontend", "Frontend", "{071FD530-3826-4A59-BF32-A6D69846B0B3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2E113B6B-2BE6-49E1-BDD1-9FB14BAFC7D4} = {5868D802-8694-4F5C-B520-B13051099ABB}
+		{11E23D32-3ECC-41E7-ADDF-0EC187407027} = {071FD530-3826-4A59-BF32-A6D69846B0B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {51230FD7-3CEE-431B-B9C7-7F6F91CD5F56}
